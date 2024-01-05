@@ -1,0 +1,36 @@
+1)  git init => intialization
+2)  git config user.name "your name" 
+    git config user.email "email"
+3)  git add . => adding all files
+    git add file name => adding particular file
+    git add *.ext => adding particular extention files
+    git add --all =>adding all files
+    git add --A =>adding all files
+4)  git commit -m "message"
+    git commit -am "message" => adding & commiting
+5)  git remote add origin (aliasing) "remote repo URL"
+6)  git push origin master/branch
+7)  git clone URL => download all remote repo files in local
+8)  git rm --cached file name => remove file in remote repo
+9)  git --version => checking version
+10) git status => difference between working directory to staging area
+11) git log => history of commits
+    git log --oneline =>history of commits shown in one line
+    git log --number => particular number of files commit
+    git log -file name => particular file commit
+12) git branch branch_name => create a branch
+13) git branch => list the branches
+    git branh --list
+14) git checkout branch => switch the branch
+    git switch branch 
+15) git checkout -b branch_name => create and switch the branch
+16) git branch -d branch_name => delete the branch
+17) git branch -D branch_name => delete not commiting/merge branch
+18) git push origin -d branch_name => delete the branch in remote repo
+19) git rebase branch_name => not create the extra commit in three-way merge
+20) git cherry-pick commit ID => take the data from another branches and merge
+    git cherry-pick --abort => esc from cherry pick
+21) git reflog => check action done in git
+
+
+

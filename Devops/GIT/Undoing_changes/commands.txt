@@ -1,0 +1,21 @@
+UNDOING CHANGES:
+
+1) git rm --cached filename => remove file in remote repo
+2) git config --edit => To edit configration
+3) git remote rm origin => remove remote repo
+4) git checkout file name
+   git checkout .
+5) git diff branch1 branch2 => compare two branches
+6) git commit --ammend => change commit message
+7) git remote -v => view of remote repo
+
+RESET & REVERT:
+
+1) git reset file name
+2) git reset --soft (local to staging area)
+3) git reset --hard (dir local to working dir)
+4) git revert -m commit ID
+5) git revert file name
+
+1) git fetch URL => data is modified again download the all modified files in local
+2) git pull URL => fetch the files and merge with modified date

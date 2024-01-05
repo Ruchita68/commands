@@ -1,0 +1,25 @@
+1) mkdir dir_name => make a directory
+   mkdir -p dir1/subdir1/subdir2 => to create directory inside directory
+   mkdir dir1 dir2 ...n => to create multiple directory
+   mkdir -p dir/{sub1,sub2,sub3...n}
+   mkdir -p dir/sub1 dir/sub2 dir/sub3 ....n
+2) cd dir_name => to switch directory
+3) cd .. => switch back to previous directory
+4) touch file name => create a file
+   touch file1 file2 file3...n => create multiple files
+   touch file name{1..n}.ext => create multiple files with same extention
+5) pwd => path of present working directory
+6) ls => list all files & directory
+   ls -l =>list with permissions
+   ls -a =>to see hidden files & directory
+7) rmdir dir_name => to delete empty directory
+8) rm =>remove files
+9) rm -r directory name => to delete directory and its files
+10) cat file name => read content in files
+11) history => list of commands
+12) man => manual of commands
+13) whoami => who is the user of files
+14) echo => to print content
+15) clear => to clear screen
+16) vi filename => to edit the file
+17) nano file name => to edit the file

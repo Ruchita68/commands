@@ -1,0 +1,12 @@
+1) mv file name directory => moving file
+2) cp file name directory => copying file
+3) mv old filename new filename => rename file
+
+note: Here we are using three methods absolute,relative,combined
+     Absolute => mv file path dir path
+             eg: mv /home/ec2-user/filename /home/ec2-user/dir
+     Relative => particular directory name
+             eg: mv /home/ec2-user/filename dir_name
+     Combined => combination of absolute and relative
+                 mv file (path or name) dir (path or name)
+             eg: mv filename /home/ec2-user/dir
